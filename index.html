@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+
+        <div class="container">
+            <div class="heading">
+                    <h2>TIP CALCULATOR</h2>
+            </div>
+          
+            <div class="content">
+                <p>How much was your bill?</p>
+                <span>$ </span><input id="bill__amount" type="number" placeholder="Bill amount">
+                <p>How was your service?</p>
+                <select name="" id="tip__amount">
+                    <option disabled selected value> --Choose an Option --</option>
+                   
+                    <option value=.2>20% -- Excellent</option>
+                    <option value=.15>15% -- Good</option>
+                    <option value=.08>8% -- Bad</option>
+                    <option value=.03>3% -- Terrible</option>
+                </select>
+
+                <p>How many people are sharing the bill?</p>
+                <input id="people" type="number" placeholder="Number of People"> <span>people</span>
+                <div class="button">
+                        <button id="btn">Calculate</button>
+                </div>
+                
+                <div id="summary">
+                    <span id="tip">00.0</span> <small id="each">each</small>
+                </div>
+
+            </div><!--content-->
+        </div><!--container-->
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

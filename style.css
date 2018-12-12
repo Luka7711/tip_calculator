@@ -1,0 +1,43 @@
+body{
+    font-family: "Roboto";
+    max-width:95rem;
+    background-color:#38ada9;
+}
+
+.container{
+    width:18rem;
+    background-color:white;
+    border-radius:10px;
+    height:27rem;
+    margin:0 auto;
+    padding:1rem;
+    margin-top:10rem;
+    box-shadow: 0 1.5rem 4rem rgba(10, 40, 207, 0.3);
+}
+
+.heading{
+    text-align:center;
+    padding:.5rem;
+    background-color:#f6b93b;
+    border-radius:5px;
+}
+
+#summary{
+margin-top:1rem;
+}
+
+#summary:before{
+content:"Due Payment is:";
+padding-top:1px;
+display: block;
+}
+
+.button{
+    margin-top:2rem;
+    text-align:center;
+}
+
+#tip{
+    color:rgb(4, 170, 26);
+    font-weight:700;
+}
